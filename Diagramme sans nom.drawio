@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T08:05:59.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="b_F72iEOnIzvnNhU6Zyt" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T08:24:11.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="9pChuBQWSP5qi-3I9Jk5" version="21.6.2" type="github">
   <diagram name="Page-1" id="vHBGrTsYqT1RuA5-FNSh">
     <mxGraphModel dx="1861" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-1" value="Point_data" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="540" width="160" height="60" as="geometry" />
+          <mxGeometry x="630" y="490" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-2" value="+ value_Point_data: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -14,19 +14,31 @@
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-8" value="Probability_distribution" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="540" width="160" height="86" as="geometry" />
+          <mxGeometry x="-70" y="530" width="220" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="SI0JAdaID6cO6t9ZGBBr-9" value="+ name_distrib: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-8">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-9" value="+ name_distrib:&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-8">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-8">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="220" height="8" as="geometry" />
         </mxCell>
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-8">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="60" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SI0JAdaID6cO6t9ZGBBr-13" value="j&#39;aimerais que l&#39;utilisateur puisse entrer le nom d&#39;une distribution et puisse ensuite entrer le nom des paramètres et la valeur disponible pour ces paramètres" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="610" width="190" height="100" as="geometry" />
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-13" value="J&#39;aimerais que l&#39;utilisateur puisse entrer le nom d&#39;une distribution, et que ce nom soit obligatoirement compris dans une liste possible de noms.&lt;br&gt;&lt;br&gt;L&#39;utilisateur devra ensuite pouvoir renseigne les valeurs des paramètres associés à cette distribution, mais l&#39;utilisateur devra choisir les paramètres dans une liste de paramètres possibles." style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="640" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-14" value="Sample_statistic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="530" width="210" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-15" value="+ name_Sample_statistic: type&lt;br&gt;+ value_Sample_statistic: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-14">
+          <mxGeometry y="26" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-14">
+          <mxGeometry y="80" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-17" value="J&#39;aimerais que l&#39;utilisateur puisse entrer le nom d&#39;une ou plusieurs statistiques (genre moyenne, médiane) figurant dans une liste préétablie, et ensuite donne la valeur de cette ou ces statistique." style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="295" y="650" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
