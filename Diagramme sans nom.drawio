@@ -1,18 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T08:24:11.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="9pChuBQWSP5qi-3I9Jk5" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T08:58:29.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="ey0cXubdZQv-T0gcAPdV" version="21.6.2" type="github">
   <diagram name="Page-1" id="vHBGrTsYqT1RuA5-FNSh">
     <mxGraphModel dx="1861" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SI0JAdaID6cO6t9ZGBBr-1" value="Point_data" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="490" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SI0JAdaID6cO6t9ZGBBr-2" value="+ value_Point_data: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="SI0JAdaID6cO6t9ZGBBr-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-8" value="Probability_distribution" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="530" width="220" height="86" as="geometry" />
         </mxCell>
@@ -28,17 +19,80 @@
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-13" value="J&#39;aimerais que l&#39;utilisateur puisse entrer le nom d&#39;une distribution, et que ce nom soit obligatoirement compris dans une liste possible de noms.&lt;br&gt;&lt;br&gt;L&#39;utilisateur devra ensuite pouvoir renseigne les valeurs des paramètres associés à cette distribution, mais l&#39;utilisateur devra choisir les paramètres dans une liste de paramètres possibles." style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-70" y="640" width="230" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="SI0JAdaID6cO6t9ZGBBr-14" value="Sample_statistic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="530" width="210" height="88" as="geometry" />
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-17" value="J&#39;aimerais que l&#39;utilisateur puisse entrer le nom d&#39;une ou plusieurs statistiques (genre moyenne, médiane) figurant dans une liste préétablie, et ensuite donne la valeur de cette ou ces statistique(s)." style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="245" y="680" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="SI0JAdaID6cO6t9ZGBBr-15" value="+ name_Sample_statistic: type&lt;br&gt;+ value_Sample_statistic: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-14">
-          <mxGeometry y="26" width="210" height="54" as="geometry" />
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-18" value="Measurement_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="174" width="220" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="SI0JAdaID6cO6t9ZGBBr-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-14">
-          <mxGeometry y="80" width="210" height="8" as="geometry" />
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-19" value="+ name_distrib:&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-18">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SI0JAdaID6cO6t9ZGBBr-17" value="J&#39;aimerais que l&#39;utilisateur puisse entrer le nom d&#39;une ou plusieurs statistiques (genre moyenne, médiane) figurant dans une liste préétablie, et ensuite donne la valeur de cette ou ces statistique." style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="295" y="650" width="200" height="100" as="geometry" />
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-18">
+          <mxGeometry y="52" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-21" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-18">
+          <mxGeometry y="60" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-22" value="Un événement de mesure fourni une ou des mesures que l&#39;on considèrent indistingable, qu&#39;il est impossible ou que l&#39;on ne souhaite pas distinguer selon un critère quelconque. La variété des valeurs prises peut être de la variabilité mais également de l&#39;incertitude." style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="585" y="160" width="227" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-23" value="Measurement_type" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="346" width="320" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-24" value="+ name_measurement_event_Measurement_type:&lt;br&gt;+ name_Measurement_type: inutile ?&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-23">
+          <mxGeometry y="26" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-23">
+          <mxGeometry y="70" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-26" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-23">
+          <mxGeometry y="78" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-33" value="Sample_statistic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="526" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-34" value="+ name_Sample_statistic: type&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ value_Sample_statistic: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-33">
+          <mxGeometry y="26" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-33">
+          <mxGeometry y="70" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-36" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-33">
+          <mxGeometry y="78" width="240" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-37" value="Point_data" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="526" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-38" value="+ value_Point_data: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-37">
+          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-37">
+          <mxGeometry y="50" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-40" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SI0JAdaID6cO6t9ZGBBr-37">
+          <mxGeometry y="58" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-50" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="SI0JAdaID6cO6t9ZGBBr-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="100" y="460" as="sourcePoint" />
+            <mxPoint x="320" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="480" />
+              <mxPoint x="320" y="480" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SI0JAdaID6cO6t9ZGBBr-60" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SI0JAdaID6cO6t9ZGBBr-33" target="SI0JAdaID6cO6t9ZGBBr-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="520" as="sourcePoint" />
+            <mxPoint x="600" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="480" />
+              <mxPoint x="600" y="480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
