@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-06T19:54:25.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="A8RKt_WResmqNm1Bdbok" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-06T19:55:32.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="CckRwBwLMfmXRC6dNrbR" version="21.6.6" type="github">
   <diagram name="Page-1" id="vHBGrTsYqT1RuA5-FNSh">
-    <mxGraphModel dx="2448" dy="1563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3923" dy="2295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,13 +23,13 @@
           <mxGeometry x="125" y="1344.5" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-18" value="Measurement_event" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-380" y="-620" width="370" height="178" as="geometry" />
+          <mxGeometry x="-380" y="-620" width="370" height="180" as="geometry" />
         </mxCell>
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-19" value="&lt;div&gt;+ status: &lt;i&gt;Measurement_status&lt;/i&gt;&lt;/div&gt;&lt;div&gt;+ id_substance: &lt;i&gt;Substance&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+&lt;/i&gt; id_campaign: &lt;i&gt;Campaign&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ &lt;/i&gt;id_localisation: &lt;i&gt;Localisation&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ &lt;/i&gt;id_date&lt;i&gt;: Date&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ &lt;/i&gt;id_matrix: &lt;i&gt;Matrix&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SI0JAdaID6cO6t9ZGBBr-18" vertex="1">
           <mxGeometry y="26" width="370" height="144" as="geometry" />
         </mxCell>
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="SI0JAdaID6cO6t9ZGBBr-18" vertex="1">
-          <mxGeometry y="170" width="370" height="8" as="geometry" />
+          <mxGeometry y="170" width="370" height="10" as="geometry" />
         </mxCell>
         <mxCell id="SI0JAdaID6cO6t9ZGBBr-22" value="Un événement de mesure fourni une ou des mesures que l&#39;on considèrent indistingable, qu&#39;il est impossible ou que l&#39;on ne souhaite pas distinguer selon un critère quelconque. La variété des valeurs prises peut être de la variabilité mais également de l&#39;incertitude." style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="440" y="934.5" width="227" height="100" as="geometry" />
@@ -271,7 +271,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VvgGewaTuvllS4AL0zH4-9" value="Level" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="10" width="320" height="100" as="geometry" />
+          <mxGeometry x="-376" y="10" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="VvgGewaTuvllS4AL0zH4-10" value="&lt;div&gt;+ name: text&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ &lt;/i&gt;type:&lt;i&gt; Matrix_type &lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;+ depth: &lt;i&gt;int&lt;/i&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VvgGewaTuvllS4AL0zH4-9">
           <mxGeometry y="26" width="320" height="66" as="geometry" />
@@ -279,7 +279,7 @@
         <mxCell id="VvgGewaTuvllS4AL0zH4-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VvgGewaTuvllS4AL0zH4-9">
           <mxGeometry y="92" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VvgGewaTuvllS4AL0zH4-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="VvgGewaTuvllS4AL0zH4-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VvgGewaTuvllS4AL0zH4-126">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-540" y="-460" as="sourcePoint" />
             <mxPoint x="-380" y="-460" as="targetPoint" />
@@ -597,6 +597,22 @@
         </mxCell>
         <mxCell id="VvgGewaTuvllS4AL0zH4-138" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VvgGewaTuvllS4AL0zH4-135">
           <mxGeometry x="-0.5668" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvgGewaTuvllS4AL0zH4-142" value="" style="endArrow=none;html=1;rounded=0;exitX=0.486;exitY=1.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.534;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SI0JAdaID6cO6t9ZGBBr-20" target="VvgGewaTuvllS4AL0zH4-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-265" y="-400" as="sourcePoint" />
+            <mxPoint x="-115" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvgGewaTuvllS4AL0zH4-143" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VvgGewaTuvllS4AL0zH4-142">
+          <mxGeometry x="-0.8208" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvgGewaTuvllS4AL0zH4-144" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VvgGewaTuvllS4AL0zH4-142">
+          <mxGeometry x="0.8741" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
